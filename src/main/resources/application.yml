@@ -1,0 +1,39 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 950804
+    url: jdbc:mysql:///sell?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+  jpa:
+    show-sql: true
+  jackson:
+    default-property-inclusion: non_null
+  redis:
+    host: 192.168.33.128
+    port: 6379
+server:
+  context-path: /sell
+logging:
+  pattern:
+    console: "%d - %msg%n"
+  #  path: /var/log/tomcat/
+  file: F:\IDEA\wechatfood\log\sell
+  level:
+    zju.edu.cn.wechatfood.LoggerTest: debug
+
+wechat:
+  mpAppId: wx7a1be4cd1f497393
+  mpAppSecret: ce83e8053b9561a7f8818ddfedb8a988
+  openAppId:
+  openAppSecret:
+  mchId: 1522056971
+  mchKey: TD2bkIwy8KS7iVWPyckX8pElbdPxpn6y
+  keyPath: C:\Users\shen\Downloads\cert\apiclient_cert.p12
+  notifyUrl: http://sells.mynatapp.cc/sell/pay/notify
+  templateId:
+    orderStatus: qwmgj0dIb-cccbrcRjFI2NAWwsv3nmWZgVvHtpbhoG8
+
+projectUrl:
+  wechatMpAuthorize: http://sells.mynatapp.cc
+  wechatOpenAuthorize: http://sells.mynatapp.cc
+  sell: http://sells.mynatapp.cc

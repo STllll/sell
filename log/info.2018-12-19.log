@@ -1,0 +1,292 @@
+Starting WechatfoodApplication on DESKTOP-VDFK1AB with PID 3528 (F:\IDEA\wechatfood\target\classes started by shen in F:\IDEA\wechatfood)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7d20d0b: startup date [Wed Dec 19 15:25:40 CST 2018]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.OrderMasterDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.OrderDetailDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.ProductCategoryDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.ProductInfoDao.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 18036 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7d20d0b: startup date [Wed Dec 19 15:25:40 CST 2018]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> zju.edu.cn.wechatfood.Controller.BuyerOrderController.create(zju.edu.cn.wechatfood.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<java.util.List<zju.edu.cn.wechatfood.dto.OrderDTO>> zju.edu.cn.wechatfood.Controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<zju.edu.cn.wechatfood.dto.OrderDTO> zju.edu.cn.wechatfood.Controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO zju.edu.cn.wechatfood.Controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO zju.edu.cn.wechatfood.Controller.BuyerProductController.list()
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void zju.edu.cn.wechatfood.Controller.WeixinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7d20d0b: startup date [Wed Dec 19 15:25:40 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started WechatfoodApplication in 47.35 seconds (JVM running for 70.699)
+Starting WechatfoodApplication on DESKTOP-VDFK1AB with PID 9584 (F:\IDEA\wechatfood\target\classes started by shen in F:\IDEA\wechatfood)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@48d5f34e: startup date [Wed Dec 19 15:33:14 CST 2018]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.OrderMasterDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.OrderDetailDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.ProductCategoryDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.ProductInfoDao.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 5876 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@48d5f34e: startup date [Wed Dec 19 15:33:14 CST 2018]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> zju.edu.cn.wechatfood.Controller.BuyerOrderController.create(zju.edu.cn.wechatfood.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<java.util.List<zju.edu.cn.wechatfood.dto.OrderDTO>> zju.edu.cn.wechatfood.Controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO zju.edu.cn.wechatfood.Controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<zju.edu.cn.wechatfood.dto.OrderDTO> zju.edu.cn.wechatfood.Controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO zju.edu.cn.wechatfood.Controller.BuyerProductController.list()
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void zju.edu.cn.wechatfood.Controller.WeixinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@48d5f34e: startup date [Wed Dec 19 15:33:14 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started WechatfoodApplication in 17.586 seconds (JVM running for 25.239)
+Starting WechatfoodApplication on DESKTOP-VDFK1AB with PID 2944 (F:\IDEA\wechatfood\target\classes started by shen in F:\IDEA\wechatfood)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7e276594: startup date [Wed Dec 19 16:08:49 CST 2018]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.OrderMasterDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.OrderDetailDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.ProductCategoryDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.ProductInfoDao.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 11789 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7e276594: startup date [Wed Dec 19 16:08:49 CST 2018]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> zju.edu.cn.wechatfood.Controller.BuyerOrderController.create(zju.edu.cn.wechatfood.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<java.util.List<zju.edu.cn.wechatfood.dto.OrderDTO>> zju.edu.cn.wechatfood.Controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO zju.edu.cn.wechatfood.Controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<zju.edu.cn.wechatfood.dto.OrderDTO> zju.edu.cn.wechatfood.Controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO zju.edu.cn.wechatfood.Controller.BuyerProductController.list()
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void zju.edu.cn.wechatfood.Controller.WeixinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7e276594: startup date [Wed Dec 19 16:08:49 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started WechatfoodApplication in 27.343 seconds (JVM running for 45.556)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 126 ms
+HHH000397: Using ASTQueryTranslatorFactory
+Starting WechatfoodApplication on DESKTOP-VDFK1AB with PID 5536 (F:\IDEA\wechatfood\target\classes started by shen in F:\IDEA\wechatfood)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@48d5f34e: startup date [Wed Dec 19 16:14:10 CST 2018]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.OrderMasterDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.OrderDetailDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.ProductCategoryDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.ProductInfoDao.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 7001 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@48d5f34e: startup date [Wed Dec 19 16:14:10 CST 2018]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> zju.edu.cn.wechatfood.Controller.BuyerOrderController.create(zju.edu.cn.wechatfood.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<java.util.List<zju.edu.cn.wechatfood.dto.OrderDTO>> zju.edu.cn.wechatfood.Controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO zju.edu.cn.wechatfood.Controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<zju.edu.cn.wechatfood.dto.OrderDTO> zju.edu.cn.wechatfood.Controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO zju.edu.cn.wechatfood.Controller.BuyerProductController.list()
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void zju.edu.cn.wechatfood.Controller.WeixinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@48d5f34e: startup date [Wed Dec 19 16:14:10 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started WechatfoodApplication in 18.404 seconds (JVM running for 29.739)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 138 ms
+HHH000397: Using ASTQueryTranslatorFactory
+Starting WechatfoodApplication on DESKTOP-VDFK1AB with PID 10312 (F:\IDEA\wechatfood\target\classes started by shen in F:\IDEA\wechatfood)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@c055c54: startup date [Wed Dec 19 16:20:04 CST 2018]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.OrderMasterDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.OrderDetailDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.ProductCategoryDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.ProductInfoDao.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 6563 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@c055c54: startup date [Wed Dec 19 16:20:04 CST 2018]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> zju.edu.cn.wechatfood.Controller.BuyerOrderController.create(zju.edu.cn.wechatfood.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<java.util.List<zju.edu.cn.wechatfood.dto.OrderDTO>> zju.edu.cn.wechatfood.Controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO zju.edu.cn.wechatfood.Controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<zju.edu.cn.wechatfood.dto.OrderDTO> zju.edu.cn.wechatfood.Controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO zju.edu.cn.wechatfood.Controller.BuyerProductController.list()
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void zju.edu.cn.wechatfood.Controller.WeixinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@c055c54: startup date [Wed Dec 19 16:20:04 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started WechatfoodApplication in 21.253 seconds (JVM running for 26.213)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 132 ms
+[微信网页授权] 获取code, result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxf290fbc97be65a1a&redirect_uri=http%3A%2F%2Fsells.mynatapp.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com#wechat_redirect
+[微信网页授权] 获取code, result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxf290fbc97be65a1a&redirect_uri=http%3A%2F%2Fsells.mynatapp.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com#wechat_redirect
+[微信网页授权] 获取code, result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxf290fbc97be65a1a&redirect_uri=http%3A%2F%2Fsells.mynatapp.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com#wechat_redirect
+[微信网页授权] 获取code, result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxf290fbc97be65a1a&redirect_uri=http%3A%2F%2Fsells.mynatapp.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com#wechat_redirect
+[微信网页授权] 获取code, result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxf290fbc97be65a1a&redirect_uri=http%3A%2F%2Fsells.mynatapp.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com#wechat_redirect
+[微信网页授权] 获取code, result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxf290fbc97be65a1a&redirect_uri=http%3A%2F%2Fsells.mynatapp.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com#wechat_redirect
+[微信网页授权] 获取code, result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxf290fbc97be65a1a&redirect_uri=http%3A%2F%2Fsells.mynatapp.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com#wechat_redirect
+[微信网页授权] 获取code, result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxf290fbc97be65a1a&redirect_uri=http%3A%2F%2Fsells.mynatapp.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com#wechat_redirect
+[微信网页授权] 获取code, result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxf290fbc97be65a1a&redirect_uri=http%3A%2F%2Fsells.mynatapp.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com#wechat_redirect
+[微信网页授权] 获取code, result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxf290fbc97be65a1a&redirect_uri=http%3A%2F%2Fsells.mynatapp.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com#wechat_redirect
+[微信网页授权] 获取code, result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxf290fbc97be65a1a&redirect_uri=http%3A%2F%2Fsells.mynatapp.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com#wechat_redirect

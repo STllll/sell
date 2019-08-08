@@ -1,0 +1,1450 @@
+[微信网页授权] 获取code, result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx7a1be4cd1f497393&redirect_uri=http%3A%2F%2Fsells.mynatapp.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fsell.com%2F%23%2F#wechat_redirect
+[微信网页授权] 获取code, result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx7a1be4cd1f497393&redirect_uri=http%3A%2F%2Fsells.mynatapp.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fsell.com%2F%23%2F#wechat_redirect
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548137632015559226",
+  "orderAmount": 15.0,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548228617",
+  "nonceStr": "duEFyxvdFZVCdE6S",
+  "packAge": "prepay_id\u003dwx231530170533090fbeb745ed0271857372",
+  "signType": "MD5",
+  "paySign": "E6966BC62CCD8E30252F71066C33C725"
+}
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548137632015559226",
+  "orderAmount": 15.0,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548228632",
+  "nonceStr": "tQtbfwjmLdJ9EYb3",
+  "packAge": "prepay_id\u003dwx231530327051070fbeb745ed0646921296",
+  "signType": "MD5",
+  "paySign": "35278DEAD72BFB7399DA2C30B39F48C6"
+}
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548137632015559226",
+  "orderAmount": 15.0,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548228633",
+  "nonceStr": "UuWxZGQX7Wx6IVwO",
+  "packAge": "prepay_id\u003dwx231530336593290fbeb745ed0065922552",
+  "signType": "MD5",
+  "paySign": "F768BCEEA119029B8DA0D54EFBAF45C1"
+}
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548137632015559226",
+  "orderAmount": 15.0,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548228770",
+  "nonceStr": "mr2HaE6NSvIAXlBP",
+  "packAge": "prepay_id\u003dwx231532508138960fbeb745ed2424628011",
+  "signType": "MD5",
+  "paySign": "EAC6BB246FACF196FA7051E268407F46"
+}
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548137632015559226",
+  "orderAmount": 0.03,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548137632015559226",
+  "orderAmount": 0.03,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548137632015559226",
+  "orderAmount": 0.03,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+Starting WechatfoodApplication on DESKTOP-VDFK1AB with PID 3128 (F:\IDEA\wechatfood\target\classes started by shen in F:\IDEA\wechatfood)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63475ace: startup date [Wed Jan 23 15:38:09 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.OrderMasterDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.OrderDetailDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.ProductCategoryDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.SellerInfoDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.ProductInfoDao.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 9791 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63475ace: startup date [Wed Jan 23 15:38:09 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> zju.edu.cn.wechatfood.Controller.BuyerOrderController.create(zju.edu.cn.wechatfood.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<java.util.List<zju.edu.cn.wechatfood.dto.OrderDTO>> zju.edu.cn.wechatfood.Controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<zju.edu.cn.wechatfood.dto.OrderDTO> zju.edu.cn.wechatfood.Controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO zju.edu.cn.wechatfood.Controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO zju.edu.cn.wechatfood.Controller.BuyerProductController.list()
+Mapped "{[/pay/notify],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.PayController.notify(java.lang.String)
+Mapped "{[/pay/create],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/skill/query/{productId}],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.SecKillController.query(java.lang.String) throws java.lang.Exception
+Mapped "{[/skill/order/{productId}],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.SecKillController.skill(java.lang.String) throws java.lang.Exception
+Mapped "{[/seller/category/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerCategoryController.index(java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/category/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerCategoryController.list(java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/category/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerCategoryController.save(zju.edu.cn.wechatfood.form.CategoryForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/finish],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.finished(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/detail],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.detail(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/cancel],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.cancel(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.save(zju.edu.cn.wechatfood.form.ProductForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/off_sale]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.offSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/on_sale]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.onSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/sell/test],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.Test.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/qrUserInfo],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.qrUserInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void zju.edu.cn.wechatfood.Controller.WeixinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Detected @ExceptionHandler methods in sellExceptionHandler
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started WechatfoodApplication in 23.593 seconds (JVM running for 41.496)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 33 ms
+HHH000397: Using ASTQueryTranslatorFactory
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548137632015559226",
+  "orderAmount": 0.03,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548137632015559226",
+  "orderAmount": 0.03,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+Starting OrderServiceImpTest on DESKTOP-VDFK1AB with PID 6376 (started by shen in F:\IDEA\wechatfood)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@376a0d86: startup date [Wed Jan 23 15:40:19 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.OrderMasterDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.OrderDetailDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.ProductCategoryDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.SellerInfoDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.ProductInfoDao.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@376a0d86: startup date [Wed Jan 23 15:40:19 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> zju.edu.cn.wechatfood.Controller.BuyerOrderController.create(zju.edu.cn.wechatfood.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<java.util.List<zju.edu.cn.wechatfood.dto.OrderDTO>> zju.edu.cn.wechatfood.Controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO zju.edu.cn.wechatfood.Controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<zju.edu.cn.wechatfood.dto.OrderDTO> zju.edu.cn.wechatfood.Controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO zju.edu.cn.wechatfood.Controller.BuyerProductController.list()
+Mapped "{[/pay/notify],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.PayController.notify(java.lang.String)
+Mapped "{[/pay/create],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/skill/query/{productId}],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.SecKillController.query(java.lang.String) throws java.lang.Exception
+Mapped "{[/skill/order/{productId}],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.SecKillController.skill(java.lang.String) throws java.lang.Exception
+Mapped "{[/seller/category/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerCategoryController.index(java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/category/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerCategoryController.list(java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/category/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerCategoryController.save(zju.edu.cn.wechatfood.form.CategoryForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/finish],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.finished(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/cancel],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.cancel(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/detail],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.detail(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.save(zju.edu.cn.wechatfood.form.ProductForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/off_sale]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.offSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/on_sale]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.onSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/sell/test],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.Test.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/qrUserInfo],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.qrUserInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void zju.edu.cn.wechatfood.Controller.WeixinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Detected @ExceptionHandler methods in sellExceptionHandler
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Started OrderServiceImpTest in 19.636 seconds (JVM running for 22.893)
+【创建订单】 result=OrderDTO(orderId=1548229236858453261, buyerName=小肥, buyerPhone=123456789012, buyerAddress=宿舍楼420, buyerOpenid=150658, orderAmount=null, orderStatus=null, payStatus=null, orderDetailList=[OrderDetail(detailId=1548229237059763168, orderId=1548229236858453261, productId=1, productName=皮蛋瘦肉粥, productPrice=0.03, productQuantity=5, productIcon=https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1548771589&di=d322f965ad0e578fcec2347b27da4987&imgtype=jpg&er=1&src=http%3A%2F%2Fbpic.ooopic.com%2F16%2F09%2F06%2F16090620-7fb16852e2104aacfe918767d0ac839b.jpg)])
+Closing org.springframework.web.context.support.GenericWebApplicationContext@376a0d86: startup date [Wed Jan 23 15:40:19 CST 2019]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting WechatfoodApplication on DESKTOP-VDFK1AB with PID 5928 (F:\IDEA\wechatfood\target\classes started by shen in F:\IDEA\wechatfood)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63475ace: startup date [Wed Jan 23 15:41:39 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.OrderMasterDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.OrderDetailDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.ProductCategoryDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.SellerInfoDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.ProductInfoDao.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4244 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63475ace: startup date [Wed Jan 23 15:41:39 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> zju.edu.cn.wechatfood.Controller.BuyerOrderController.create(zju.edu.cn.wechatfood.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<java.util.List<zju.edu.cn.wechatfood.dto.OrderDTO>> zju.edu.cn.wechatfood.Controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<zju.edu.cn.wechatfood.dto.OrderDTO> zju.edu.cn.wechatfood.Controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO zju.edu.cn.wechatfood.Controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO zju.edu.cn.wechatfood.Controller.BuyerProductController.list()
+Mapped "{[/pay/notify],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.PayController.notify(java.lang.String)
+Mapped "{[/pay/create],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/skill/query/{productId}],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.SecKillController.query(java.lang.String) throws java.lang.Exception
+Mapped "{[/skill/order/{productId}],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.SecKillController.skill(java.lang.String) throws java.lang.Exception
+Mapped "{[/seller/category/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerCategoryController.index(java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/category/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerCategoryController.list(java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/category/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerCategoryController.save(zju.edu.cn.wechatfood.form.CategoryForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/finish],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.finished(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/detail],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.detail(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/cancel],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.cancel(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.save(zju.edu.cn.wechatfood.form.ProductForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/on_sale]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.onSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/off_sale]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.offSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/sell/test],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.Test.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.authorize(java.lang.String)
+Mapped "{[/wechat/qrUserInfo],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.qrUserInfo(java.lang.String,java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void zju.edu.cn.wechatfood.Controller.WeixinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Detected @ExceptionHandler methods in sellExceptionHandler
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started WechatfoodApplication in 10.452 seconds (JVM running for 12.538)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 38 ms
+HHH000397: Using ASTQueryTranslatorFactory
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548229236858453261",
+  "orderAmount": 0.15,
+  "orderName": "微信点餐订单",
+  "openid": "150658"
+}
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548229236858453261",
+  "orderAmount": 0.15,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548229348",
+  "nonceStr": "2yLMzx0z4Wl5CJ5z",
+  "packAge": "prepay_id\u003dwx23154229000910a0d7c985b11647484699",
+  "signType": "MD5",
+  "paySign": "9D601204A74E2F80DC9B4F088EB0A968"
+}
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548229236858453261",
+  "orderAmount": 0.15,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548229375",
+  "nonceStr": "sGeFzDCWNbXRAQCN",
+  "packAge": "prepay_id\u003dwx23154256033258a0d7c985b12553832817",
+  "signType": "MD5",
+  "paySign": "E8B43F6E56637D8035109F9021901DE7"
+}
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548229236858453261",
+  "orderAmount": 0.15,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548229435",
+  "nonceStr": "mW51Xral9s3SXEp2",
+  "packAge": "prepay_id\u003dwx23154355561795a0d7c985b11453657213",
+  "signType": "MD5",
+  "paySign": "5A3A632A4037F209DCF35A056D1C0FE1"
+}
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548229236858453261",
+  "orderAmount": 0.15,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548229448",
+  "nonceStr": "j5gU7T0uuEuCdLEb",
+  "packAge": "prepay_id\u003dwx23154408713976a0d7c985b11081844010",
+  "signType": "MD5",
+  "paySign": "24961C49FEAEB10354E7A6CF002D95B5"
+}
+【微信支付】 异步通知
+【微信支付】 异步通知
+【微信支付】 异步通知
+【微信支付】 异步通知
+【微信支付】 异步通知
+[微信网页授权] 获取code, result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx7a1be4cd1f497393&redirect_uri=http%3A%2F%2Fsells.mynatapp.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fsell.com%2F%23%2F#wechat_redirect
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548230164452271883",
+  "orderAmount": 0.23,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548230165",
+  "nonceStr": "E1YV8v7DZqg5Xcha",
+  "packAge": "prepay_id\u003dwx2315560557047079a9d7b2012573115235",
+  "signType": "MD5",
+  "paySign": "7A2378FED2CFECF7687BBF82847510A1"
+}
+[微信网页授权] 获取code, result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx7a1be4cd1f497393&redirect_uri=http%3A%2F%2Fsells.mynatapp.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fsell.com%2F%23%2F#wechat_redirect
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548230164452271883",
+  "orderAmount": 0.23,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548230225",
+  "nonceStr": "sbSx9tEBdXekAnDc",
+  "packAge": "prepay_id\u003dwx2315570538552479a9d7b2013880149944",
+  "signType": "MD5",
+  "paySign": "9357A50944A70E1B220063031E01D447"
+}
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548230164452271883",
+  "orderAmount": 0.23,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548230346",
+  "nonceStr": "UvufNkXk4p5uFs4J",
+  "packAge": "prepay_id\u003dwx2315590619023279a9d7b2012773318217",
+  "signType": "MD5",
+  "paySign": "A9FA84AE2402226E101AD6EDC4D85EF5"
+}
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548230164452271883",
+  "orderAmount": 0.23,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548230356",
+  "nonceStr": "KDqPX0wi47r6jlKp",
+  "packAge": "prepay_id\u003dwx2315591666047579a9d7b2012834809335",
+  "signType": "MD5",
+  "paySign": "7D1D4AD4E2AA3D10EEF4A171EAA13569"
+}
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548230164452271883",
+  "orderAmount": 0.23,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548230385",
+  "nonceStr": "IeRLGhUoJi6498Nt",
+  "packAge": "prepay_id\u003dwx2315594608117879a9d7b2011896781514",
+  "signType": "MD5",
+  "paySign": "A91D01827070EDC5D2A09F34C431E9F3"
+}
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548230164452271883",
+  "orderAmount": 0.23,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548230405",
+  "nonceStr": "gaOlll9yhJzXqVL9",
+  "packAge": "prepay_id\u003dwx2316000552497579a9d7b2011738335568",
+  "signType": "MD5",
+  "paySign": "C5CFF2DBAE96509ACC6EDB0A1CFE8F20"
+}
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548230164452271883",
+  "orderAmount": 0.23,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548230446",
+  "nonceStr": "nMFYF2LYKHxWpnUL",
+  "packAge": "prepay_id\u003dwx2316004645745879a9d7b2011783319737",
+  "signType": "MD5",
+  "paySign": "3A1045E814038F0244D66F90D546A5AA"
+}
+Starting WechatfoodApplication on DESKTOP-VDFK1AB with PID 14812 (F:\IDEA\wechatfood\target\classes started by shen in F:\IDEA\wechatfood)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63475ace: startup date [Wed Jan 23 16:06:49 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.OrderMasterDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.OrderDetailDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.ProductCategoryDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.SellerInfoDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.ProductInfoDao.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 5075 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63475ace: startup date [Wed Jan 23 16:06:49 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> zju.edu.cn.wechatfood.Controller.BuyerOrderController.create(zju.edu.cn.wechatfood.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<java.util.List<zju.edu.cn.wechatfood.dto.OrderDTO>> zju.edu.cn.wechatfood.Controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO zju.edu.cn.wechatfood.Controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<zju.edu.cn.wechatfood.dto.OrderDTO> zju.edu.cn.wechatfood.Controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO zju.edu.cn.wechatfood.Controller.BuyerProductController.list()
+Mapped "{[/pay/notify],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.PayController.notify(java.lang.String)
+Mapped "{[/pay/create],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/skill/query/{productId}],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.SecKillController.query(java.lang.String) throws java.lang.Exception
+Mapped "{[/skill/order/{productId}],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.SecKillController.skill(java.lang.String) throws java.lang.Exception
+Mapped "{[/seller/category/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerCategoryController.index(java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/category/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerCategoryController.list(java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/category/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerCategoryController.save(zju.edu.cn.wechatfood.form.CategoryForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/finish],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.finished(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/cancel],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.cancel(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/detail],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.detail(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.save(zju.edu.cn.wechatfood.form.ProductForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/off_sale]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.offSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/on_sale]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.onSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/sell/test],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.Test.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/qrUserInfo],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.qrUserInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void zju.edu.cn.wechatfood.Controller.WeixinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Detected @ExceptionHandler methods in sellExceptionHandler
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started WechatfoodApplication in 12.15 seconds (JVM running for 14.575)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 41 ms
+HHH000397: Using ASTQueryTranslatorFactory
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548230164452271883",
+  "orderAmount": 0.23,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548230842",
+  "nonceStr": "FQxSyNwZfriJ3FCD",
+  "packAge": "prepay_id\u003dwx2316072227198679a9d7b2013862538855",
+  "signType": "MD5",
+  "paySign": "155E4D925EE79FA0D51BD02B8781E51F"
+}
+进入auth方法。。。
+code=011GftHU1qPgUX0VmvGU1GZjHU1GftHN
+response={"access_token":"17_5sHjraWhUFinRNQD3SQMEiaplAedNteG92Ud8E81OrfDkIehBzQVNo7UzwBAkCkXa-IJ_GWp9upp_bkqdubwE_qwjssCBl0kkJRrSsk5jqA","expires_in":7200,"refresh_token":"17_bws5uBHspl6QPIh0OC-lRec4TtoIYcJt6rjOGrInYHv98aP5elWDJ-0wEWUIzDMUznlMaiGW-uS-VRXMNw2JEOBL0Z-lMNrRvW6buWif0lQ","openid":"ozBKN1U4EQL63r3df8QnjzBVX398","scope":"snsapi_base"}
+进入auth方法。。。
+code=081HC2pi1pbhcu00lBri14Pipi1HC2pg
+response={"access_token":"17_hF8LkKYLQnzvpeIqw9_Y-Bh-q8b7q-YvrPGdJ9jf0eB59s21AB7BATcxVLwfyYvkfiL-YJH3ON6A9EhmUKHQUn-IBKDWV6V2h624yQ1WbkE","expires_in":7200,"refresh_token":"17_hxPETa19pKOD1TrdaIThVh7Xy1NuFhWFFqZD1KnvuuZ1uEvMDS4-2o1gNl3zjVyDf3ntIDPaXKiDzKZS_gQ-zA0t-zbHSiXpTvcK_hM0GfQ","openid":"ozBKN1f5KH_RcDIHxYdFAH6DJ53I","scope":"snsapi_base"}
+进入auth方法。。。
+code=011Tt86f0VxgZt1OQj5f0n8o6f0Tt86c
+response={"access_token":"17_kxiTwLrsbGCB0iFjzPmqJwOthdlFvmlz9cUA0xbr_hip5RBoUw_5WrVFQDdXAloNhB4vQ-IUWXj91wVfZcl0maQl1K3BGtIm2YIBtLXcv3k","expires_in":7200,"refresh_token":"17_mNE1BO3YKIfFl0CLc3L2n_akM68oaR4dhmris6YvsmaqJX_7LQe3ZaGRtIPbRS0CakY5JxuwS6GqHUJ0Q1CvEVnBfvdv3OM_oteEkXDT6DA","openid":"ozBKN1f5KH_RcDIHxYdFAH6DJ53I","scope":"snsapi_base"}
+进入auth方法。。。
+code=0713bXzY0YEGiV1DFszY0NLfAY03bXzN
+response={"access_token":"17_OYw_S7RwHrGwB-oUTgwR6GRIQrQm1d6dznqVBY21L_zfTBSEt1g7zG1B4vJubRQGnQFu4SbLaUfkpHKnt-CYrvefKxatKEa-EIZ-NeEldkY","expires_in":7200,"refresh_token":"17_-z6SQ0Uwr0SWKOOEEXggvnGpds4c0u2Rpuagdn-4uvu3MuBkf0_uTSxGYGUtyBNhjQLSiOTgEWL2Ue01vEk3nRy09u9w9LL39K13N_oLWnY","openid":"ozBKN1f5KH_RcDIHxYdFAH6DJ53I","scope":"snsapi_base"}
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548230164452271883",
+  "orderAmount": 0.23,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1f5KH_RcDIHxYdFAH6DJ53I"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548230970",
+  "nonceStr": "xxfYp6HGnroMHoDr",
+  "packAge": "prepay_id\u003dwx2316093084837679a9d7b2011580039504",
+  "signType": "MD5",
+  "paySign": "0C0F212054BAF35569FC67D9633E3537"
+}
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548231018386718548",
+  "orderAmount": 0.23,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548231018",
+  "nonceStr": "f5ePiqziZ5WiAbfH",
+  "packAge": "prepay_id\u003dwx23161019113976ff97f028e23190234285",
+  "signType": "MD5",
+  "paySign": "7DB7863D9D99CF57A3EDF7B6D0C1E828"
+}
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548231018386718548",
+  "orderAmount": 0.23,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548231078",
+  "nonceStr": "cUJIuH7EQPajmpz3",
+  "packAge": "prepay_id\u003dwx23161118547621ff97f028e20956951030",
+  "signType": "MD5",
+  "paySign": "2785A9425BF1A062317F6175CD3A4DDA"
+}
+【微信支付】 异步通知
+Starting WechatfoodApplication on DESKTOP-VDFK1AB with PID 15968 (F:\IDEA\wechatfood\target\classes started by shen in F:\IDEA\wechatfood)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63475ace: startup date [Wed Jan 23 16:37:06 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.OrderMasterDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.OrderDetailDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.ProductCategoryDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.SellerInfoDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.ProductInfoDao.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 6231 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63475ace: startup date [Wed Jan 23 16:37:06 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> zju.edu.cn.wechatfood.Controller.BuyerOrderController.create(zju.edu.cn.wechatfood.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<java.util.List<zju.edu.cn.wechatfood.dto.OrderDTO>> zju.edu.cn.wechatfood.Controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<zju.edu.cn.wechatfood.dto.OrderDTO> zju.edu.cn.wechatfood.Controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO zju.edu.cn.wechatfood.Controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO zju.edu.cn.wechatfood.Controller.BuyerProductController.list()
+Mapped "{[/pay/notify],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.PayController.notify(java.lang.String)
+Mapped "{[/pay/create],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/skill/query/{productId}],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.SecKillController.query(java.lang.String) throws java.lang.Exception
+Mapped "{[/skill/order/{productId}],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.SecKillController.skill(java.lang.String) throws java.lang.Exception
+Mapped "{[/seller/category/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerCategoryController.index(java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/category/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerCategoryController.list(java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/category/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerCategoryController.save(zju.edu.cn.wechatfood.form.CategoryForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/finish],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.finished(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/detail],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.detail(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/cancel],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.cancel(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.save(zju.edu.cn.wechatfood.form.ProductForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/off_sale]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.offSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/on_sale]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.onSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/sell/test],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.Test.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/qrUserInfo],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.qrUserInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void zju.edu.cn.wechatfood.Controller.WeixinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Detected @ExceptionHandler methods in sellExceptionHandler
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started WechatfoodApplication in 13.754 seconds (JVM running for 17.181)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 42 ms
+HHH000397: Using ASTQueryTranslatorFactory
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548230164452271883",
+  "orderAmount": 0.23,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1f5KH_RcDIHxYdFAH6DJ53I"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548232662",
+  "nonceStr": "1iKBqiiGwgns87XX",
+  "packAge": "prepay_id\u003dwx2316374268176379a9d7b2012023661705",
+  "signType": "MD5",
+  "paySign": "07DE36012E260A506258BE0FC2B828E6"
+}
+进入auth方法。。。
+code=0216Ytyd1jaGVy0O7uvd1ub5yd16YtyV
+response={"access_token":"17__Ili-Ki4Ry3M-XJ-2OKwjtF3S8A6PAPU4Dq3Vn4I9d9-tWQw7GeCuGcn9d2QjXmLcWgXbXYiX710km7fEcre_jrSdNiQElZ-PrMUxBwj5LU","expires_in":7200,"refresh_token":"17_c_Y5HmYjjGWSMYNEMIW0IqrT0y6aHGc0DWO6vxs8gQ6mXja2gmQndZirpXFYnWyBcq7IYkEQG7AUIQPGDo_jRB4cM3pT96XljahsxlGyK2Y","openid":"ozBKN1U4EQL63r3df8QnjzBVX398","scope":"snsapi_base"}
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548229236858453261",
+  "orderAmount": 0.15,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548230164452271883",
+  "orderAmount": 0.23,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1f5KH_RcDIHxYdFAH6DJ53I"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548232719",
+  "nonceStr": "E5IYUQR1tlQcPTgX",
+  "packAge": "prepay_id\u003dwx2316383944832279a9d7b2011959362455",
+  "signType": "MD5",
+  "paySign": "17493BB5D5D7B8696985E5F8897566D5"
+}
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548230164452271883",
+  "orderAmount": 0.23,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1f5KH_RcDIHxYdFAH6DJ53I"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548232758",
+  "nonceStr": "3ZNZDNEzp5C9DmYa",
+  "packAge": "prepay_id\u003dwx2316391814612579a9d7b2013965424494",
+  "signType": "MD5",
+  "paySign": "554CDC120069A4F88E232F85C03D23E6"
+}
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548230164452271883",
+  "orderAmount": 0.23,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1f5KH_RcDIHxYdFAH6DJ53I"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548232766",
+  "nonceStr": "DjBdBjFLgtlPa08A",
+  "packAge": "prepay_id\u003dwx2316392686637979a9d7b2014152239108",
+  "signType": "MD5",
+  "paySign": "556BEDD897A93D882643CAB922A8E11B"
+}
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548232797227488063",
+  "orderAmount": 0.03,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548232798",
+  "nonceStr": "YAksXxqi3Az3AGGL",
+  "packAge": "prepay_id\u003dwx23163958487581cb44f208d40962022942",
+  "signType": "MD5",
+  "paySign": "B8D8108A23BEAC301FB8C5DF616912E0"
+}
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548230164452271883",
+  "orderAmount": 0.23,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1f5KH_RcDIHxYdFAH6DJ53I"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548232800",
+  "nonceStr": "0linaqC3qH6Shgr3",
+  "packAge": "prepay_id\u003dwx2316400073348979a9d7b2011845229255",
+  "signType": "MD5",
+  "paySign": "FDAA5E5D34D4AFC5484ED59959C5714F"
+}
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548231018386718548",
+  "orderAmount": 0.23,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548232827",
+  "nonceStr": "M33haYBWBF1Gilbv",
+  "packAge": "prepay_id\u003dwx23164027778389ff97f028e21908977893",
+  "signType": "MD5",
+  "paySign": "85AA778F31815C75EA86D3520F883CEA"
+}
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548232797227488063",
+  "orderAmount": 0.03,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548232858",
+  "nonceStr": "RRX6tIiyrPwDuw4c",
+  "packAge": "prepay_id\u003dwx23164058603167cb44f208d43823925744",
+  "signType": "MD5",
+  "paySign": "B4C31161C64454A2BC1CE5F87BFD4398"
+}
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548231018386718548",
+  "orderAmount": 0.23,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548232863",
+  "nonceStr": "8uuKXWuXzIvNc3Z5",
+  "packAge": "prepay_id\u003dwx23164103641685ff97f028e23774474062",
+  "signType": "MD5",
+  "paySign": "36937AD2D8649719F094BF67A516CCF3"
+}
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548230164452271883",
+  "orderAmount": 0.23,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1f5KH_RcDIHxYdFAH6DJ53I"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548232869",
+  "nonceStr": "yLR0Qbs48VUq9D5o",
+  "packAge": "prepay_id\u003dwx2316410978246979a9d7b2010073506969",
+  "signType": "MD5",
+  "paySign": "974071E6181DE231286E991FF09D0095"
+}
+Starting WechatfoodApplication on DESKTOP-VDFK1AB with PID 15684 (F:\IDEA\wechatfood\target\classes started by shen in F:\IDEA\wechatfood)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63475ace: startup date [Wed Jan 23 16:42:02 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.OrderMasterDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.OrderDetailDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.ProductCategoryDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.SellerInfoDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.ProductInfoDao.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4158 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63475ace: startup date [Wed Jan 23 16:42:02 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> zju.edu.cn.wechatfood.Controller.BuyerOrderController.create(zju.edu.cn.wechatfood.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<java.util.List<zju.edu.cn.wechatfood.dto.OrderDTO>> zju.edu.cn.wechatfood.Controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<zju.edu.cn.wechatfood.dto.OrderDTO> zju.edu.cn.wechatfood.Controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO zju.edu.cn.wechatfood.Controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO zju.edu.cn.wechatfood.Controller.BuyerProductController.list()
+Mapped "{[/pay/notify],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.PayController.notify(java.lang.String)
+Mapped "{[/pay/create],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/skill/query/{productId}],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.SecKillController.query(java.lang.String) throws java.lang.Exception
+Mapped "{[/skill/order/{productId}],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.SecKillController.skill(java.lang.String) throws java.lang.Exception
+Mapped "{[/seller/category/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerCategoryController.index(java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/category/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerCategoryController.list(java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/category/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerCategoryController.save(zju.edu.cn.wechatfood.form.CategoryForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/finish],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.finished(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/detail],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.detail(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/cancel],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.cancel(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.save(zju.edu.cn.wechatfood.form.ProductForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/off_sale]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.offSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/on_sale]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.onSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/sell/test],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.Test.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/qrUserInfo],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.qrUserInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void zju.edu.cn.wechatfood.Controller.WeixinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Detected @ExceptionHandler methods in sellExceptionHandler
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started WechatfoodApplication in 10.26 seconds (JVM running for 12.403)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 76 ms
+HHH000397: Using ASTQueryTranslatorFactory
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548231018386718548",
+  "orderAmount": 0.23,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548232934",
+  "nonceStr": "zZuKIUR84uPSGhmr",
+  "packAge": "prepay_id\u003dwx23164214360394ff97f028e20984175339",
+  "signType": "MD5",
+  "paySign": "B56B25E94092AD13505EC57E69DBEC45"
+}
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548231018386718548",
+  "orderAmount": 0.23,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548233000",
+  "nonceStr": "O3nTlOtIVuMX8XFy",
+  "packAge": "prepay_id\u003dwx23164320314797ff97f028e20667352176",
+  "signType": "MD5",
+  "paySign": "EFBC4B2939B8BBC8D518E8F06917524A"
+}
+Starting WechatfoodApplication on DESKTOP-VDFK1AB with PID 2044 (F:\IDEA\wechatfood\target\classes started by shen in F:\IDEA\wechatfood)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63475ace: startup date [Wed Jan 23 16:44:09 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.OrderMasterDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.OrderDetailDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.ProductCategoryDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.SellerInfoDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.ProductInfoDao.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4561 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63475ace: startup date [Wed Jan 23 16:44:09 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> zju.edu.cn.wechatfood.Controller.BuyerOrderController.create(zju.edu.cn.wechatfood.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<java.util.List<zju.edu.cn.wechatfood.dto.OrderDTO>> zju.edu.cn.wechatfood.Controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO zju.edu.cn.wechatfood.Controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<zju.edu.cn.wechatfood.dto.OrderDTO> zju.edu.cn.wechatfood.Controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO zju.edu.cn.wechatfood.Controller.BuyerProductController.list()
+Mapped "{[/pay/notify],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.PayController.notify(java.lang.String)
+Mapped "{[/pay/create],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/skill/query/{productId}],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.SecKillController.query(java.lang.String) throws java.lang.Exception
+Mapped "{[/skill/order/{productId}],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.SecKillController.skill(java.lang.String) throws java.lang.Exception
+Mapped "{[/seller/category/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerCategoryController.index(java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/category/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerCategoryController.list(java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/category/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerCategoryController.save(zju.edu.cn.wechatfood.form.CategoryForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/finish],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.finished(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/cancel],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.cancel(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/detail],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.detail(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.save(zju.edu.cn.wechatfood.form.ProductForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/off_sale]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.offSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/on_sale]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.onSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/sell/test],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.Test.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.authorize(java.lang.String)
+Mapped "{[/wechat/qrUserInfo],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.qrUserInfo(java.lang.String,java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void zju.edu.cn.wechatfood.Controller.WeixinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Detected @ExceptionHandler methods in sellExceptionHandler
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started WechatfoodApplication in 10.515 seconds (JVM running for 12.672)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 65 ms
+HHH000397: Using ASTQueryTranslatorFactory
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548231018386718548",
+  "orderAmount": 0.23,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548233062",
+  "nonceStr": "VkDceOuuVN1J7m5f",
+  "packAge": "prepay_id\u003dwx23164422227715ff97f028e23507755267",
+  "signType": "MD5",
+  "paySign": "17E55AA93977876611B26FF5B2FF22F5"
+}
+【微信支付】 异步通知
+【微信支付】 异步通知
+【微信支付】 异步通知
+【微信支付】 异步通知
+【微信支付】 异步通知
+【微信支付】 异步通知
+Starting WechatfoodApplication on DESKTOP-VDFK1AB with PID 14232 (F:\IDEA\wechatfood\target\classes started by shen in F:\IDEA\wechatfood)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63475ace: startup date [Wed Jan 23 16:48:57 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.OrderMasterDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.OrderDetailDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.ProductCategoryDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.SellerInfoDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.ProductInfoDao.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 5319 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63475ace: startup date [Wed Jan 23 16:48:57 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> zju.edu.cn.wechatfood.Controller.BuyerOrderController.create(zju.edu.cn.wechatfood.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<java.util.List<zju.edu.cn.wechatfood.dto.OrderDTO>> zju.edu.cn.wechatfood.Controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO zju.edu.cn.wechatfood.Controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<zju.edu.cn.wechatfood.dto.OrderDTO> zju.edu.cn.wechatfood.Controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO zju.edu.cn.wechatfood.Controller.BuyerProductController.list()
+Mapped "{[/pay/notify],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.PayController.notify(java.lang.String)
+Mapped "{[/pay/create],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/skill/query/{productId}],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.SecKillController.query(java.lang.String) throws java.lang.Exception
+Mapped "{[/skill/order/{productId}],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.SecKillController.skill(java.lang.String) throws java.lang.Exception
+Mapped "{[/seller/category/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerCategoryController.index(java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/category/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerCategoryController.list(java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/category/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerCategoryController.save(zju.edu.cn.wechatfood.form.CategoryForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/finish],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.finished(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/cancel],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.cancel(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/detail],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.detail(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.save(zju.edu.cn.wechatfood.form.ProductForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/on_sale]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.onSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/off_sale]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.offSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/sell/test],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.Test.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/qrUserInfo],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.qrUserInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void zju.edu.cn.wechatfood.Controller.WeixinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Detected @ExceptionHandler methods in sellExceptionHandler
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started WechatfoodApplication in 12.586 seconds (JVM running for 14.79)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms
+HHH000397: Using ASTQueryTranslatorFactory
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548230164452271883",
+  "orderAmount": 0.23,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1f5KH_RcDIHxYdFAH6DJ53I"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548233392",
+  "nonceStr": "X69w7gO4bEe4zgkO",
+  "packAge": "prepay_id\u003dwx2316495224537779a9d7b2014223839218",
+  "signType": "MD5",
+  "paySign": "B06E448DB2DDCC772B8BE82AFC5083A0"
+}
+【微信支付】 异步通知
+【微信支付】 异步通知
+【微信支付】 异步通知
+【微信支付】 异步通知
+Starting WechatfoodApplication on DESKTOP-VDFK1AB with PID 4436 (F:\IDEA\wechatfood\target\classes started by shen in F:\IDEA\wechatfood)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63475ace: startup date [Wed Jan 23 16:54:06 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.OrderMasterDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.OrderDetailDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.ProductCategoryDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.SellerInfoDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.ProductInfoDao.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 5439 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63475ace: startup date [Wed Jan 23 16:54:06 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> zju.edu.cn.wechatfood.Controller.BuyerOrderController.create(zju.edu.cn.wechatfood.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<java.util.List<zju.edu.cn.wechatfood.dto.OrderDTO>> zju.edu.cn.wechatfood.Controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<zju.edu.cn.wechatfood.dto.OrderDTO> zju.edu.cn.wechatfood.Controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO zju.edu.cn.wechatfood.Controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO zju.edu.cn.wechatfood.Controller.BuyerProductController.list()
+Mapped "{[/pay/notify],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.PayController.notify(java.lang.String)
+Mapped "{[/pay/create],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/skill/query/{productId}],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.SecKillController.query(java.lang.String) throws java.lang.Exception
+Mapped "{[/skill/order/{productId}],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.SecKillController.skill(java.lang.String) throws java.lang.Exception
+Mapped "{[/seller/category/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerCategoryController.index(java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/category/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerCategoryController.list(java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/category/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerCategoryController.save(zju.edu.cn.wechatfood.form.CategoryForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/finish],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.finished(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/detail],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.detail(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/cancel],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.cancel(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.save(zju.edu.cn.wechatfood.form.ProductForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/off_sale]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.offSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/on_sale]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.onSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/sell/test],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.Test.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.authorize(java.lang.String)
+Mapped "{[/wechat/qrUserInfo],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.qrUserInfo(java.lang.String,java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void zju.edu.cn.wechatfood.Controller.WeixinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Detected @ExceptionHandler methods in sellExceptionHandler
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started WechatfoodApplication in 12.326 seconds (JVM running for 15.051)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 79 ms
+HHH000397: Using ASTQueryTranslatorFactory
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548233672527869134",
+  "orderAmount": 0.08,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548233674",
+  "nonceStr": "BLLUdUNhGDONMPWf",
+  "packAge": "prepay_id\u003dwx23165434194476f6d2ae57fd2621793772",
+  "signType": "MD5",
+  "paySign": "1C2B3FC34FE7D408DB906480EA118D01"
+}
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548233672527869134",
+  "orderAmount": 0.08,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548233707",
+  "nonceStr": "dHPTSWTS2u2um6vQ",
+  "packAge": "prepay_id\u003dwx23165507849452f6d2ae57fd3472782481",
+  "signType": "MD5",
+  "paySign": "422C53A08C0189DD35D372E57D6C0184"
+}
+【微信支付】 异步通知
+Starting WechatfoodApplication on DESKTOP-VDFK1AB with PID 7892 (F:\IDEA\wechatfood\target\classes started by shen in F:\IDEA\wechatfood)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63475ace: startup date [Wed Jan 23 16:55:43 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.OrderMasterDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.OrderDetailDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.ProductCategoryDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.SellerInfoDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.ProductInfoDao.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4564 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63475ace: startup date [Wed Jan 23 16:55:43 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> zju.edu.cn.wechatfood.Controller.BuyerOrderController.create(zju.edu.cn.wechatfood.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<java.util.List<zju.edu.cn.wechatfood.dto.OrderDTO>> zju.edu.cn.wechatfood.Controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<zju.edu.cn.wechatfood.dto.OrderDTO> zju.edu.cn.wechatfood.Controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO zju.edu.cn.wechatfood.Controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO zju.edu.cn.wechatfood.Controller.BuyerProductController.list()
+Mapped "{[/pay/notify],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.PayController.notify(java.lang.String)
+Mapped "{[/pay/create],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/skill/query/{productId}],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.SecKillController.query(java.lang.String) throws java.lang.Exception
+Mapped "{[/skill/order/{productId}],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.SecKillController.skill(java.lang.String) throws java.lang.Exception
+Mapped "{[/seller/category/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerCategoryController.index(java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/category/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerCategoryController.list(java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/category/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerCategoryController.save(zju.edu.cn.wechatfood.form.CategoryForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/finish],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.finished(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/detail],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.detail(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/cancel],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.cancel(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.save(zju.edu.cn.wechatfood.form.ProductForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/off_sale]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.offSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/on_sale]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.onSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/sell/test],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.Test.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/qrUserInfo],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.qrUserInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void zju.edu.cn.wechatfood.Controller.WeixinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Detected @ExceptionHandler methods in sellExceptionHandler
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started WechatfoodApplication in 12.243 seconds (JVM running for 14.534)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 64 ms
+[微信网页授权] 获取code, result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx7a1be4cd1f497393&redirect_uri=http%3A%2F%2Fsells.mynatapp.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fsell.com%2F%23%2F#wechat_redirect
+HHH000397: Using ASTQueryTranslatorFactory
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548233772370829275",
+  "orderAmount": 0.07,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548233773",
+  "nonceStr": "RNv7dySBwCsAE8SS",
+  "packAge": "prepay_id\u003dwx23165613247649a389d75a153406700573",
+  "signType": "MD5",
+  "paySign": "E936EC5E0DC38D57946FE1897E288B5F"
+}
+【微信支付】 异步通知
+[微信支付] 发起支付, request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1548233772370829275",
+  "orderAmount": 0.07,
+  "orderName": "微信点餐订单",
+  "openid": "ozBKN1U4EQL63r3df8QnjzBVX398"
+}
+[微信支付] 发起支付, response] ={
+  "appId": "wx7a1be4cd1f497393",
+  "timeStamp": "1548233793",
+  "nonceStr": "T8hjUCbuZEMq6Iy5",
+  "packAge": "prepay_id\u003dwx23165633129621a389d75a152000561461",
+  "signType": "MD5",
+  "paySign": "C488C65B5D8C4CF8C175435CA0847863"
+}
+【微信支付】 异步通知
+【微信支付】 异步通知
+Starting PayServiceImpltest on DESKTOP-VDFK1AB with PID 15800 (started by shen in F:\IDEA\wechatfood)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@376a0d86: startup date [Wed Jan 23 17:55:05 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.OrderMasterDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.OrderDetailDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.ProductCategoryDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.SellerInfoDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface zju.edu.cn.wechatfood.DAO.ProductInfoDao.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@376a0d86: startup date [Wed Jan 23 17:55:05 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> zju.edu.cn.wechatfood.Controller.BuyerOrderController.create(zju.edu.cn.wechatfood.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<java.util.List<zju.edu.cn.wechatfood.dto.OrderDTO>> zju.edu.cn.wechatfood.Controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO zju.edu.cn.wechatfood.Controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO<zju.edu.cn.wechatfood.dto.OrderDTO> zju.edu.cn.wechatfood.Controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public zju.edu.cn.wechatfood.VO.ResultVO zju.edu.cn.wechatfood.Controller.BuyerProductController.list()
+Mapped "{[/pay/notify],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.PayController.notify(java.lang.String)
+Mapped "{[/pay/create],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/skill/query/{productId}],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.SecKillController.query(java.lang.String) throws java.lang.Exception
+Mapped "{[/skill/order/{productId}],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.SecKillController.skill(java.lang.String) throws java.lang.Exception
+Mapped "{[/seller/category/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerCategoryController.index(java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/category/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerCategoryController.list(java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/category/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerCategoryController.save(zju.edu.cn.wechatfood.form.CategoryForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/finish],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.finished(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/cancel],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.cancel(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/order/detail],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerOrderController.detail(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.save(zju.edu.cn.wechatfood.form.ProductForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/off_sale]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.offSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/seller/product/on_sale]}" onto public org.springframework.web.servlet.ModelAndView zju.edu.cn.wechatfood.Controller.SellerProductController.onSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/sell/test],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.Test.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/qrUserInfo],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.qrUserInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String zju.edu.cn.wechatfood.Controller.WechatController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void zju.edu.cn.wechatfood.Controller.WeixinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Detected @ExceptionHandler methods in sellExceptionHandler
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Started PayServiceImpltest in 46.468 seconds (JVM running for 56.382)
+HHH000397: Using ASTQueryTranslatorFactory
+【微信退款】 request=RefundRequest(payTypeEnum=WXPAY_H5, orderId=1548233772370829275, orderAmount=0.07)
+【微信退款】response=RefundResponse(orderId=1548233772370829275, orderAmount=0.07, outTradeNo=4200000261201901232778151436, refundId=1548233772370829275, outRefundNo=50000409352019012308050156714)
+Closing org.springframework.web.context.support.GenericWebApplicationContext@376a0d86: startup date [Wed Jan 23 17:55:05 CST 2019]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'

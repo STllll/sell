@@ -1,0 +1,8 @@
+http://sells.mynatapp.cc
+https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx7a1be4cd1f497393&redirect_uri=http://sells.mynatapp.cc/sell/weixin/auth&response_type=code&scope=snsapi_base&state=STATE#wechat_redirec
+
+
+
+https://api.weixin.qq.com/sns/oauth2/access_token?appid=wx7a1be4cd1f497393&secret=ce83e8053b9561a7f8818ddfedb8a988&code=071UMjbP0w7tF42mZYbP0C4kbP0UMjbm&grant_type=authorization_code
+
+openid : ozBKN1U4EQL63r3df8QnjzBVX398
